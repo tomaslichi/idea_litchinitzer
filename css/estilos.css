@@ -75,21 +75,6 @@ header {
     margin: 10px;
 }
 
-
-/* Imagenes en transicion */
-
-.contenedor-imagenes {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.imagenes {
-    width: 400px;
-    height: 220px;
-    margin-top: 50px;
-    margin-bottom: 5px;
-}
-
 .aLaDerecha {
     text-align: right;
 }
@@ -233,8 +218,11 @@ i {
         margin: 10px;
     }
     .misTurnosCalendar {
-        width: 300px;
-        height: 200px;
+        width: 550px;
+        height: 400px;
+    }
+    .blogComents {
+        width: 90%;
     }
 }
 
@@ -258,10 +246,13 @@ i {
         width: 100%;
     }
     .misTurnosCalendar {
-        width: 50%;
-        height: 50%;
+        width: 90%;
+        height: 300px;
     }
     h1 {
         font-size: 8vw;
+    }
+    .blogComents {
+        width: 90%;
     }
 }
